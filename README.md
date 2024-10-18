@@ -14,11 +14,11 @@ Time series plots of the stock prices are generated to visualize trends and patt
 3. Model Selection and Training
 Five machine learning models are used for stock price prediction. Each model is trained using the train_test_split method to divide the data into training and testing sets.
 
-Random Forest Regressor: An ensemble learning method that constructs multiple decision trees during training.
-Gradient Boosting Regressor: Another ensemble method, which builds trees sequentially, focusing on correcting errors made by prior models.
-Linear SVR: A linear model for regression tasks, particularly useful for high-dimensional datasets.
-MLP Regressor: A type of artificial neural network used for regression tasks.
-KNeighbors Regressor: A simple algorithm that predicts the target by averaging the values of the nearest neighbors in the feature space.
+  Random Forest Regressor: An ensemble learning method that constructs multiple decision trees during training.
+  Gradient Boosting Regressor: Another ensemble method, which builds trees sequentially, focusing on correcting errors made by prior models.
+  Linear SVR: A linear model for regression tasks, particularly useful for high-dimensional datasets.
+  MLP Regressor: A type of artificial neural network used for regression tasks.
+  KNeighbors Regressor: A simple algorithm that predicts the target by averaging the values of the nearest neighbors in the feature space.
 
 4. Model Evaluation
 After training, each model's predictions are evaluated on the test set. The primary evaluation metric is the R² score (r2_score), which measures how well the predictions match the actual stock prices. A higher R² score indicates better performance.
